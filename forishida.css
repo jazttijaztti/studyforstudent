@@ -1,0 +1,175 @@
+* {
+  font-family: "Noto Sans JP";
+  text-decoration: none;
+}
+.wrapper{  
+  max-width:1200px;
+
+  min-width:900px;
+  width:90%;
+  margin:auto;
+  background-color:#eeeeee;
+  height:500px;
+  margin-top:100vh;
+  background-image:url(ishida2.png);
+}
+
+nav {
+  width:100%;
+}
+ul{
+  margin:0px;
+  padding:0px;
+}
+.menu ul {
+  display:flex;
+  justify-content:space-between;
+}
+.menu ul li:hover {
+  background-color:rgba(255,0,0,0.4);
+}
+.menu ul li a {
+  color:#000;
+}
+
+.gazo{
+  position:relative;
+  width:30%;
+  height:150px;
+  background-color:#000;
+
+  background-image:url(ishida2.png);
+  background-size:cover;
+  background-position:50% 50%;
+}
+.gazo2{
+  background-image:url(ishida2.png);
+  background-size:cover;
+  background-position:50% 50%;
+
+}
+
+
+li {
+  list-style:none;
+  width:20%;
+  text-align:center;
+  padding:5px;
+  margin:5px;
+  border:1px solid #565656;
+}
+
+.content{
+  background-color:rgba(255,40,9,0.5);
+  display:flex;
+  justify-content:center;
+}
+main{
+  background-color:rgba(255,40,9,0.5);  
+  width:70%;
+}
+
+aside{
+ background-color:rgba(25,240,9,0.5); 
+ width:30%;   
+}
+.main-inside{
+  width:100%;
+  display:flex;
+  overflow:scroll;
+  margin-bottom:20px;
+}
+.main-inside img {
+  max-width:210px;
+  min-width:190px;
+  width:30%;
+  height:250px;
+}
+
+.main-inside-text{
+  width:70%;
+}
+.side-inside{
+ margin:5px;
+
+}
+.side-inside img {
+  width:100%;
+} 
+
+.main-inside{
+  position:relative;
+}
+.label{
+  position:absolute;
+  top:0px;
+  right:0px;
+  background-color:rgba(0,0,0,0.4);
+  color:#FFF;
+  padding:5px;
+}
+
+
+.gazo div{
+  position:absolute;
+  top:45%;
+  right:30%;
+}
+
+.fix{
+  position:fixed;
+  bottom:10px;
+  right:20px;
+  width:100px;
+  height:100px;
+  background-color:rgba(0,0,255,0.5);
+  padding:20px;
+  z-index:1;
+}
+.setumei{
+  margin:50px;
+  padding:50px;
+  background-color:rgba(0,0,255,0.5); 
+  text-align:center;
+  font-family: "Nico Moji";
+
+}
+
+.setumei2{
+  background-color:rgba(255,0,25,0.5);  
+}
+
+.kotei{
+  position:fixed;
+  top:0px;
+  z-index:-1;
+  height:100vh;
+  background-color:rgba(0,0,0,0.4);
+  width:80%;
+  width: 84.35%;
+
+}
+
+@media screen and (max-width:600px){
+  .wrapper{
+     margin-top: auto;
+     min-width: auto;
+  }
+  .setumei{
+     display:none;
+  }
+  .kotei{
+     height: auto;
+     position: relative;
+     z-index: 1;
+  }
+  .content{
+    flex-direction: column;
+  }
+  main {
+    width:100%;
+  }
+  aside {
+    width:100%;
+  }
+}

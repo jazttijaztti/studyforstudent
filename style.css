@@ -1,0 +1,126 @@
+.wrapper {
+   color:rgba(255,255,255,1);
+   text-align:center;
+   text-shadow: 5px 10px 2px rgba(0,0,0,0.4);
+}
+
+.menu ul li {
+   list-style:none;
+   background-color:gray;
+   margin:20px;
+   padding:20px;
+   width:100px;
+}
+
+.menu ul {
+   display:flex;
+
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+ 
+   display:-webkit-box;
+   display:-ms-flexbox;
+
+   justify-content:center;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+
+   /* space-betweenの他に
+      中央寄せのcenterや
+      左端から始まるflex-start
+      いい具合に周りにスペースをつける
+      space-around
+      とかがあります。
+   */
+}
+img {
+   /* border-radius: 50%; */
+    width:300px;
+    height:300px;
+}
+.nikki {
+   border:1px solid black;
+   width:50%;
+   margin-left:25%;
+   margin-bottom:20px;
+   height:auto;
+   overflow:scroll;
+}
+.nikki p {
+   line-height:1.5em;
+}
+.nikki h3 {
+  background-color:rgba(0,0,0,0.1);
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+h1 {
+   background-color:gray;
+   text-align:left;
+   padding:5px;
+   letter-spacing:8px;
+}
+h2 {
+   background-color:black;
+   color:black;
+}
+.nikki img {
+   width:100%;
+}
+
+img.top {
+   width:50%;
+}
+
+.block2{
+   width:100%;
+   background-color:#565656;
+   color:#FFFFFF;
+   height:500px;
+   display:flex;
+   justify-content:center;
+   flex-wrap:wrap;
+   align-items: center;
+
+}
+.block-inside{
+  width: 100px;
+  height:100px;
+  background-color:#eeeeee;
+  margin:5px;
+
+}
+
+.block3{
+  
+   width:100%;
+   background-color:#565656;
+   color:#FFFFFF;
+   height:500px;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+
+}
+
+.block3-inside{
+
+   display:flex;
+   justify-content:center;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

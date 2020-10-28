@@ -1,0 +1,17 @@
+.wrapper{
+  width:90%;
+  margin-left:5%;
+  height:500px;
+  background-color:rgba(255,0,0,1);
+}
+.menu {
+  width:100%;
+  background-color:rgba(0,0,255,0.1);
+  height:100px;
+}
+.kakoi {
+  display:flex;
+  justify-content:space-between;
+}
+
+

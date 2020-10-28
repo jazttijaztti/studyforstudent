@@ -1,0 +1,84 @@
+.wrapper{
+   width:90%;
+   margin:auto;
+   max-width:1000px;
+   min-width:640;
+}
+nav {
+   width:100%;
+}
+.menu ul {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu ul li {
+    margin:auto;
+    padding:5px;
+    width:80px;
+    border-bottom:1px solid #eee;
+    list-style:none;
+    text-align:center;
+}
+.meigazo{
+    background-image:url(https://pix10.agoda.net/hotelImages/9364242/-1/c40dbc3460975fd72fe5fb436a80f409.jpg?s=1024x768);
+    background-size:cover;
+    background-position:center center;
+    text-align:center;
+    border:1px solid #eee;
+    margin:50px;
+    padding:25px;
+    text-shadow:5px 5px 3px #FFF;
+}
+.content{
+   width:100%;
+   display:flex;
+   justify-content:center;
+}
+main{
+   width:70%;
+   height:auto;
+}
+.part{
+   display:flex;
+   justify-content:center;
+   margin-bottom:50px;
+   background-color:rgba(0,0,0,0.03);
+   padding:20px;
+}
+.part-left{
+   width:30%;
+}
+.part-left img{
+   width:100%;
+}
+.part-right{
+   flex:1;
+   padding:20px;
+   width: 80%;
+   margin: auto;
+}
+
+aside {
+   width:30%;
+}
+aside img {
+  width:100%;
+}
+
+footer {
+   width:100%;
+}
+footer ul {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+footer ul li {
+    margin:auto;
+    padding:5px;
+    width:80px;
+    border-bottom:1px solid #eee;
+    list-style:none;
+    text-align:center;
+}
